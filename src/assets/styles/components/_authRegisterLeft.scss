@@ -45,6 +45,10 @@
     }
     .auth__poster-container {
         display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        padding: 0 90px;
     }
     .auth__main-input--register {
         min-width: 220px;

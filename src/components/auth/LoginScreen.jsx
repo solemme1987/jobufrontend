@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Login } from '../Login';
 import { Register } from '../Register';
-
+const img=require.context('../../assets/img',true);
 
 
 export const LoginScreen = () => {
@@ -19,20 +19,29 @@ export const LoginScreen = () => {
             </div>
 
             <div className="auth__poster-container">
-                 {/* <div className="auth__poster-colums">
-                        <div className="auth__poster-child"></div>
-                        <div className="auth__poster-child"></div>
-                        <div className="auth__poster-child"></div>
+
+                {/* STAIRS TOP */}
+                <div className="auth__poster-stairsCotainer">
+                     <div className="auth__poster-stairs">
+
+                     </div>
+                </div>
+                <div className="auth__poster-stairsCotainer">
+                     <div className="auth__poster-stairs">
+
+                     </div>
+                </div>
+
+                 <img src={img(`./candidates.svg`).default} className="auth__poster-img" alt="poster" />
+                 <div className="auth__poster-circleParent">
+                    <div className="auth__poster-circleChild">
+
                     </div>
+                 </div>
 
-        <       img src={logo(`./home.png`).default} className="auth__poster-img" alt="logo jobu" />
-
-
-                    <div className="auth__poster-colums">
-                        <div className="auth__poster-child"></div>
-                        <div className="auth__poster-child"></div>
-                        <div className="auth__poster-child"></div>
-                    </div> */}
+                 <h2 className="auth__post-title">Lorem ipsum dolor sit amet consec.</h2>
+                 <p className="auth__post-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit, Accusamus.</p>
+                 
             </div>
 
         </div>
