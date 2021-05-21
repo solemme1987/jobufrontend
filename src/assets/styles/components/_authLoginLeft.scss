@@ -1,0 +1,138 @@
+.auth__main {
+    max-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+}
+
+.auth__main-contentLeft {
+    width: 495px;
+    max-width: 495px;
+    transition: 0.8s ease-in-out;
+    // background: black;
+}
+
+.auth__poster-container,
+.auth__input-container {
+    width: 50%;
+    min-height: 100%;
+    padding-bottom: 80px;
+}
+
+.auth__input-container {
+    padding: 50px 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.auth__poster-container {
+    background: $primary;
+    display: none;
+}
+
+.auth__main-img {
+    position: relative;
+    right: -10px;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 20px;
+}
+
+.auth__main-title {
+    font-weight: 800;
+}
+
+.auth__main-text {
+    font-size: 13px;
+    margin-top: 11px;
+    color: $lightDark;
+    font-weight: 500;
+}
+
+.auth__main-lines {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 27px;
+}
+
+.auth__main-lineLeft,
+.auth__main-lineRight {
+    width: 30%;
+    height: 1px;
+    background: $lightGray;
+}
+
+.auth__main-textLine {
+    font-size: 12px;
+    font-weight: 400;
+    color: $gray;
+}
+
+.auth__main-label {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.auth__main-required {
+    color: $primary;
+}
+
+.auth__main-input {
+    margin-top: 5px;
+    margin-bottom: 27px;
+    width: 100%;
+    outline: none;
+    border: 0px;
+    border-radius: 40px;
+    height: 56px;
+    background: none;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 700;
+    color: $gray;
+    padding-left: 26px;
+    border: 1px solid $lightGray;
+}
+
+.auth__main-contentCheckBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.auth__main-child {
+    display: flex;
+    align-items: center;
+}
+
+.auth_main-checkbox {
+    width: 22px;
+    height: 22px;
+    border-color: 1px solid $primary;
+    margin-right: 12px;
+}
+
+.auth__main-link {
+    font-size: 15px;
+    font-weight: 600;
+    color: $primary;
+}
+
+.auth__main-child--m3 {
+    margin-top: 27px;
+}
+
+.auth__main-footer {
+    position: relative;
+    top: 50px;
+}
+
+.auth__main-footer-text {
+    font-size: 15px;
+    font-weight: 600;
+    color: $lightGray;
+}
