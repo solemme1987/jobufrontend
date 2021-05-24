@@ -1,0 +1,159 @@
+.main__content {
+    margin-top: 54px;
+    height: 100%;
+    // background: blue;
+}
+
+.main__content {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    padding: 0 68px;
+    width: 100%;
+}
+
+// ESTILOS AL SIDE BAR CREARDOR DE ALERTAS
+.main__sidebar {
+    // display: grid;
+    // grid-template-columns: 96%;
+    grid-template-columns: 100%;
+    padding-right: 24px;
+    flex-direction: column;
+}
+
+.main__sideItem {
+    background: $blueSky;
+    width: 100%;
+    height: 196px;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+.main__sideItemTitle {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.main__sideItemText {
+    font-size: 12px;
+    font-weight: 400px;
+    width: 200px;
+    margin-top: 5px;
+    color: $graySideBar;
+}
+
+.main__sideInput {
+    width: 100%;
+    margin-top: 25px;
+    outline: none;
+    border: none;
+    height: 38px;
+    border-radius: 7px;
+    padding-left: 14px;
+    font-size: 12px;
+}
+
+.main__sideButton {
+    outline: none;
+    border: none;
+    background: $primary;
+    margin-top: 13px;
+    width: 50%;
+    height: 31px;
+    font-size: 10px;
+    border-radius: 7px;
+    color: white
+}
+
+// FIN A ESTILOS  DEL CREADOR DE ALERTAS
+
+/*------------------------------------
+INICO ESTILOS FILTROS DEL SIDE BAR
+--------------------------------------*/
+
+.main__sideFilter {
+    width: 100%;
+    margin-top: 34px;
+}
+
+.main__groupFilterTittle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main__filterTittle {
+    font-size: 15px;
+}
+
+.main__filterList,
+.main__filterGroupList {
+    width: 100%;
+}
+
+.main__filterList {
+    list-style: none;
+}
+
+.main__filterItem {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: $graySideBar;
+    font-weight: 500;
+    margin-top: 8px;
+}
+
+.main__filterItem:first-child {
+    margin-top: 20px;
+}
+
+.main__FilterCheck {
+    width: 22px;
+    height: 22px;
+}
+
+.main_fiterLabel {
+    margin: 0 auto 0 7px;
+}
+
+.main__filterCount {
+    background: $background;
+    padding: 3px 5px;
+    border-radius: 5px;
+}
+
+// FIN A ESTILOS  FILTROS
+
+/*------------------------------------
+INICO ESTILOS CONTENEDOR DE LAS CARDS
+--------------------------------------*/
+
+.main__cardContent {
+    // background: green;
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    justify-content: space-between;
+    gap: 2%
+}
+
+.main__cardHeader {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    display: flex;
+    align-items: center;
+}
+
+.main__sortContent {
+    margin-left: auto;
+}
+
+.main__sort {
+    color: $grayNav;
+    font-weight: 500;
+    font-size: 19px;
+}
+
+.main__sortList {
+    color: $dark;
+    font-weight: bold;
+}

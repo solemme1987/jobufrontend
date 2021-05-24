@@ -1,0 +1,101 @@
+.card {
+    // width: 313px;
+    height: 328px;
+    background: white;
+    border-radius: 8px;
+    padding: 16px;
+}
+
+.card__header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.card__logo {
+    width: 70px;
+    height: 70px;
+    background: #2F2B8C;
+    border-radius: 8px;
+}
+
+.card__point {
+    width: 4px;
+    height: 4px;
+    background: $lightGray;
+    border-radius: 5px;
+    position: relative;
+    margin-right: 8px;
+}
+
+.card__point::after,
+.card__point::before {
+    content: '';
+    width: 4px;
+    height: 4px;
+    background: $lightGray;
+    border-radius: 5px;
+    position: absolute;
+}
+
+.card__point::after {
+    left: 8px;
+}
+
+.card__point::before {
+    right: 8px;
+}
+
+.card__tittle {
+    font-size: 17px;
+    margin-top: 17px;
+}
+
+.card__text {
+    font-size: 15px;
+    margin-top: 7px;
+    color: $graySideBar;
+}
+
+.card__buttonContent,
+.card__tagContent {
+    width: 100%;
+    margin-top: 19px;
+}
+
+.card__tag {
+    font-size: 12px;
+    outline: none;
+    border: none;
+    background: $blueSky;
+    color: $primary;
+    padding: 2px 8px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.card__tag:nth-child(2) {
+    margin: 0 5px;
+}
+
+.card__buttonContent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__button {
+    background: $primary;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    padding: 8px;
+    width: 48%;
+    height: 41px;
+}
+
+.card__button-dark {
+    background: $lightGray;
+    color: $dark;
+}
